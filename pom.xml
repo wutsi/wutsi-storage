@@ -4,7 +4,7 @@
 
   <artifactId>wutsi-storage</artifactId>
   <groupId>com.wutsi.storage</groupId>
-  <version>1.1.2-SNAPSHOT</version>
+  <version>1.1.2</version>
   <packaging>jar</packaging>
 
   <name>wutsi-storage</name>
@@ -14,7 +14,7 @@
     <jacoco.threshold.line>0.5</jacoco.threshold.line>
     <jacoco.threshold.class>0.5</jacoco.threshold.class>
 
-    <junit.version>5.6.0</junit.version>
+    <junit.version>5.7.2</junit.version>
     <klint.version>0.40.0</klint.version>
     <kotlin.version>1.4.31</kotlin.version>
     <kotlin-ktlint.version>0.38.1</kotlin-ktlint.version>
@@ -29,7 +29,7 @@
 
   <scm>
     <developerConnection>scm:git:https://github.com/wutsi/wutsi-storage.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>wutsi-storage-1.1.2</tag>
   </scm>
   <distributionManagement>
     <repository>
