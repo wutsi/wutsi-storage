@@ -4,7 +4,7 @@
 
   <artifactId>wutsi-storage</artifactId>
   <groupId>com.wutsi.storage</groupId>
-  <version>1.1.0</version>
+  <version>1.1.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>wutsi-storage</name>
@@ -29,7 +29,7 @@
 
   <scm>
     <developerConnection>scm:git:https://github.com/wutsi/wutsi-storage.git</developerConnection>
-    <tag>wutsi-storage-1.1.0</tag>
+    <tag>HEAD</tag>
   </scm>
   <distributionManagement>
     <repository>
