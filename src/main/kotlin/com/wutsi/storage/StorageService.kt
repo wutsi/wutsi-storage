@@ -9,7 +9,7 @@ interface StorageService {
     fun contains(url: URL): Boolean
 
     @Throws(IOException::class)
-    fun store(path: String, content: InputStream, contentType: String? = null, ttlSeconds: Int? = null): URL
+    fun store(path: String, content: InputStream, contentType: String? = null, ttlSeconds: Int? = null, contentEncoding: String? = null): URL
 
     @Throws(IOException::class)
     fun get(url: URL, os: OutputStream)

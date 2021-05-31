@@ -21,7 +21,7 @@ open class FileStorageService(
     override fun contains(url: URL) = url.toString().startsWith(baseUrl)
 
     @Throws(IOException::class)
-    override fun store(path: String, content: InputStream, contentType: String?, ttlSeconds: Int?): URL {
+    override fun store(path: String, content: InputStream, contentType: String?, ttlSeconds: Int?, contentEncoding: String?): URL {
         val f = toFile(path)
         f.parentFile.mkdirs()
 
