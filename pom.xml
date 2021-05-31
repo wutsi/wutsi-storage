@@ -4,7 +4,7 @@
 
   <artifactId>wutsi-storage</artifactId>
   <groupId>com.wutsi.storage</groupId>
-  <version>1.1.2-SNAPSHOT</version>
+  <version>1.1.2</version>
   <packaging>jar</packaging>
 
   <name>wutsi-storage</name>
@@ -19,7 +19,7 @@
     <kotlin.version>1.4.31</kotlin.version>
     <kotlin-ktlint.version>0.38.1</kotlin-ktlint.version>
     <kotlin-mockito.version>2.2.0</kotlin-mockito.version>
-    <javax.servlet.version>3.1.0</javax.servlet.version>
+    <javax.servlet.version>4.0.1</javax.servlet.version>
     <slf4j.version>1.7.29</slf4j.version>
 
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -29,7 +29,7 @@
 
   <scm>
     <developerConnection>scm:git:https://github.com/wutsi/wutsi-storage.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>wutsi-storage-1.1.2</tag>
   </scm>
   <distributionManagement>
     <repository>
